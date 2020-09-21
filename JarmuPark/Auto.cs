@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,9 +12,24 @@ namespace JarmuPark
         private string szin;
         private string tipus;
         private double uzemanyag;
+        public double UZEMANYAG { get { return uzemanyag; } }
+
         private double fogyaszt;
+        public double FOGYASZT { get { return fogyaszt; } }
+
         private double km;
+        public double KM { get { return km; } }
+
         private double megteheto;
+        public double MEGTEHETO { get { return megteheto; } }
+
+
+
+        
+
+
+
+
 
         public Auto(string szin, string tipus, double fogyaszt)
         {
